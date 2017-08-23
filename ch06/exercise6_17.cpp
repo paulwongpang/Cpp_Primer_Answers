@@ -4,7 +4,7 @@
 
 using std::cout; using std::endl; using std::string;
 
-bool any_capital(string const& str)
+bool any_capital(const string &str)
 {
 	for (auto ch : str)
 		if (isupper(ch)) return true;
